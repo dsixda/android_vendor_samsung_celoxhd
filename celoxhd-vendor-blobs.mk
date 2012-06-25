@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celoxhd/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/samsung/celoxhd/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/samsung/celoxhd/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-	vendor/samsung/celoxhd/proprietary/lib/libv8.so:obj/lib/libv8.so
+	vendor/samsung/celoxhd/proprietary/lib/libv8.so:obj/lib/libv8.so \
+	vendor/samsung/celoxhd/proprietary/lib/libv8.so:system/lib/libv8.so \
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/celoxhd/proprietary/bin/immvibed:system/bin/immvibed \
@@ -51,6 +52,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/celoxhd/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/samsung/celoxhd/proprietary/bin/rmt_storage:system/bin/rmt_storage \
         vendor/samsung/celoxhd/proprietary/bin/rild:system/bin/rild \
+	vendor/samsung/celoxhd/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
         vendor/samsung/celoxhd/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
         vendor/samsung/celoxhd/proprietary/lib/libqmi.so:system/lib/libqmi.so \
         vendor/samsung/celoxhd/proprietary/lib/libqdp.so:system/lib/libqdp.so \
