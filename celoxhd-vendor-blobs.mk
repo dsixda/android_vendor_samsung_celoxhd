@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/celoxhd/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/celoxhd/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
 	vendor/samsung/celoxhd/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/samsung/celoxhd/proprietary/other/libhtc_acoustic.so:system/lib/libhtc_acoustic.so
+	vendor/samsung/celoxhd/proprietary/other/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
+	vendor/samsung/celoxhd/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/celoxhd/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
