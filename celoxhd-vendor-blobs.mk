@@ -125,6 +125,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/samsung/celoxhd/proprietary/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
   vendor/samsung/celoxhd/proprietary/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
+  vendor/samsung/celoxhd/proprietary/etc/wifi/bcm4330_apsta.bin:system/etc/wifi/bcm4330_apsta.bin \
+  vendor/samsung/celoxhd/proprietary/etc/wifi/bcm4330_p2p.bin:system/etc/wifi/bcm4330_p2p.bin \
   vendor/samsung/celoxhd/proprietary/etc/wifi/wl:system/etc/wifi/wl \
   vendor/samsung/celoxhd/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
   vendor/samsung/celoxhd/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
