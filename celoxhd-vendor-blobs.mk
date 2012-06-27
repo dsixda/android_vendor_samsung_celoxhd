@@ -25,8 +25,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celoxhd/proprietary/other/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
 	vendor/samsung/celoxhd/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
 	vendor/samsung/celoxhd/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
-	vendor/samsung/celoxhd/proprietary/lib/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+	vendor/samsung/celoxhd/proprietary/lib/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+   	vendor/samsung/celoxhd/proprietary/etc/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
 
+
+# Stuff copied from Skyrocket
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/celoxhd/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
