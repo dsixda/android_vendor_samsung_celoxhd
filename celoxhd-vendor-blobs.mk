@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/celoxhd/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/samsung/celoxhd/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/samsung/celoxhd/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/samsung/celoxhd/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/samsung/celoxhd/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
   vendor/samsung/celoxhd/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
   vendor/samsung/celoxhd/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
@@ -62,7 +63,10 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-  vendor/samsung/celoxhd/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so
+  vendor/samsung/celoxhd/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+  vendor/samsung/celoxhd/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
+  vendor/samsung/celoxhd/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+  vendor/samsung/celoxhd/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
 
 # Multimedia
 PRODUCT_COPY_FILES += \
