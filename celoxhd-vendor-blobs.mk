@@ -146,6 +146,7 @@ PRODUCT_COPY_FILES += \
 
 # Unsorted
 PRODUCT_COPY_FILES += \
+  vendor/samsung/celoxhd/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
   vendor/samsung/celoxhd/proprietary/lib/libv8.so:system/lib/libv8.so \
   vendor/samsung/celoxhd/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
   vendor/samsung/celoxhd/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
