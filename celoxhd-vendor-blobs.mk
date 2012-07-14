@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
 # EGL
 PRODUCT_COPY_FILES += \
   vendor/samsung/celoxhd/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/samsung/celoxhd/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   vendor/samsung/celoxhd/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/samsung/celoxhd/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/samsung/celoxhd/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
